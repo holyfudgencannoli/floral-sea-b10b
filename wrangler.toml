@@ -1,0 +1,7 @@
+name = "my-worker"
+type = "javascript"  # or "typescript" if using TS
+
+[env.production]
+  bindings = [
+    { name = "DB", type = "d1", id = "ca3a1ee2-68c7-4caf-ba3f-5de82b424df6" }
+  ]
